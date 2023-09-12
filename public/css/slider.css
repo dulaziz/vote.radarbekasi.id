@@ -1,0 +1,33 @@
+.slider img{
+    padding:5px;
+    border-radius: 10px;
+  }
+  .img_slick{
+    width: 270px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin: 2px 2px;
+  }
+  .slick-prev, .slick-next {
+      z-index: 1;
+  }
+  .slick-next {
+      right: 5px;
+  }
+  .slick-prev {
+      left: 5px;
+  }
+
+  .item{
+    transition: .3s ease-in-out;
+  }
+  .item:hover{
+    filter: brightness(80%);
+  }
+
+  @media only screen and (max-width: 480px){
+  .img_slick{
+    width: 100%;
+  }
+  }

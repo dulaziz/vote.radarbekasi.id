@@ -1,0 +1,12 @@
+1. Vote kandidat
+
+    Fitur :
+    1. Buat voting
+    2. Ambil data user yang sudah melakukan voting
+    3. Ambil semua data Votings yang User_Vote nya sama dengan tabel user id
+
+    Query Database:
+        1. Ambil semua data voting yang vote_item_id nya sama dengan vote_item id
+
+    Progress Algoritma :
+    1. Ambil data voting yang

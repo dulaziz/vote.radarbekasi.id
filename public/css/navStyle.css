@@ -1,0 +1,106 @@
+.navbar{
+  background: #00548f;
+}
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navlogo img{
+    width: 230px;
+  }
+  
+  /* Custom Toggler */
+  .navbar-toggler {
+    width: 20px;
+    height: 10px;
+    position: relative;
+    transition: .5s ease-in-out;
+  }
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+  }
+  .navbar-toggler span {
+    margin: 0;
+    padding: 0;
+  }
+  .toggler-icon {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #F8F9FA;
+    border-radius: 1px;
+    /* top: 22px; */
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }
+  .middle-bar {
+    margin-top: 0px;
+  }
+  .navbar-toggler .bottom-bar {
+    margin-top: 6px;
+  }
+  
+  /* Active */
+  .navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+  }
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  .navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+  }
+  
+  /* Collapsed */
+  .navbar-toggler.collapsed .top-bar {
+    margin-top: -7px;
+    transform: rotate(0deg);
+  }
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .navbar-toggler.collapsed .bottom-bar {
+    margin-top: 7px;
+    transform: rotate(0deg);
+  }
+  
+  .modal-img{
+    background-position: center;
+    background-size: cover;
+  }
+
+  a.nav-link.txt{
+    color: #F8F9FA;
+  }
+  
+/* Shadow Sitcky Nav */
+/* #navBar {
+  transition: 0.5s;
+}
+.floatingNav {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #99999969;
+}
+.floatingNav .navlogo{
+  filter: brightness(0) saturate(100%) invert(14%) sepia(42%) saturate(7%) hue-rotate(67deg) brightness(98%) contrast(98%);
+}
+.floatingNav .toggler-icon{
+  background-color: #212529;
+}
+.floatingNav a.nav-link.txt{
+  color: #212529;
+} */
+
+  
+  

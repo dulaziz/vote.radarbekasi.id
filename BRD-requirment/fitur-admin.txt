@@ -1,0 +1,30 @@
+1. Page Polling
+
+    tabel  :
+
+        Unit   :
+            - id
+            - thumbnail
+            - title
+            - Description
+            - date_start
+            - date_end
+            - subtitle
+
+        Item    :
+            - id
+            - vote_unit_id
+            - response
+            - vote_image
+            - vote_name
+            - short_desc
+
+    Fitur :
+
+        1. L̶i̶h̶a̶t̶ p̶a̶g̶e̶ p̶o̶l̶l̶i̶n̶g̶ u̶n̶i̶t̶ d̶a̶n̶ p̶o̶l̶l̶i̶n̶g̶ i̶t̶e̶m̶
+        2. B̶u̶a̶t̶ p̶a̶g̶e̶ p̶o̶l̶l̶i̶n̶g̶ u̶n̶i̶t̶ d̶a̶n̶ p̶o̶l̶l̶i̶n̶g̶ i̶t̶e̶m̶
+        3. Edit page polling unit dan polling item
+        4. Tutup page polling unit dan polling item
+        5. H̶a̶s̶i̶l̶ p̶a̶g̶e̶ p̶o̶l̶l̶i̶n̶g̶ u̶n̶i̶t̶ d̶a̶n̶ p̶o̶l̶l̶i̶n̶g̶ i̶t̶e̶m̶
+        6. Hapus page polling unit dan polling item
+

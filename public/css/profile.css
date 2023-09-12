@@ -1,0 +1,46 @@
+.img_thumbx{
+    max-width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .profile_bgx{
+    height: 350px; 
+    background-image: url("/img/grid-bg.png");
+    background-position: right 0px bottom 0px;
+    background-repeat: no-repeat;
+  }
+
+  @media only screen and (max-width: 770px){
+    .img_thumbx{
+        max-width: 250px;
+        object-fit: contain;
+      }
+  }
+
+  @media only screen and (max-width: 480px){
+      .profile_bgx{
+        height: 510px;
+        position: relative;
+        top: -18px;
+        background-image: url("/img/bg-bnr-mbl.jpg");
+        background-size: cover;
+      }
+  }
+
+  @media only screen and (max-width: 375px){
+    .img_thumbx{
+        max-width: 230px;
+      }
+      .profile_bgx{
+        height: 455px;
+      }
+  }
+
+  @media only screen and (max-width: 320px){
+    .img_thumbx{
+        max-width: 200px; 
+      }
+      .profile_bgx{
+        height: 390px;
+      }
+  }
