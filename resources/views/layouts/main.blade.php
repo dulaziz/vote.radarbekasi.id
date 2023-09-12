@@ -14,24 +14,15 @@
     <!-- //Summernote CSS - CDN Link -->
 
     {{-- Google Analityc --}}
-    {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQDKNF92Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-NYQDKNF92Z');
-    </script>
     <script src="https://www.googletagmanager.com/gtag/js?id=UA-263169045-1" id="google_gtagjs-js" async type="719a15583f94f26009c4e225-text/javascript"></script>
     <script id="google_gtagjs-js-after" type="719a15583f94f26009c4e225-text/javascript">
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
     gtag('set', 'linker', {"domains":["radarbekasi.id"]} );
     gtag("js", new Date());
     gtag("set", "developer_id.dZTNiMT", true);
     gtag("config", "UA-263169045-1", {"anonymize_ip":true});
     gtag("config", "GT-M6PJLW3");
-    </script> --}}
+    </script>
 
     {{-- Fancy Box --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
