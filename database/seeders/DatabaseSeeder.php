@@ -43,8 +43,8 @@ class DatabaseSeeder extends Seeder
 
         DB::table('admins')->insert([
             'name' => 'admin',
-            'email' => 'admin@radar-bogor.com',
-            'password' => Hash::make('redaksi-polling-16'),
+            'email' => 'admin@radarbekasi.id',
+            'password' => Hash::make('vote-bekasi'),
             // 'response' => 50,
         ]);
 
